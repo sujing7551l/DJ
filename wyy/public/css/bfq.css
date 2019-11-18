@@ -1,0 +1,217 @@
+.gud{
+    position: fixed;
+    bottom: -47px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1002;
+    background: #797979
+}
+.bfq{
+    position: absolute;
+    width: 100%;
+    height: 53px;
+    margin: 0 auto;
+}
+.bfbg{
+    background-image: url(../img/playbar.png);
+    height: 53px;
+    zoom: 1;
+    margin-right: 67px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+.left_1{
+    position: absolute;
+    top: -14px;
+    right: 15px;
+    width: 52px;
+    height: 67px;
+    background-position: 0 -380px;
+    background-image: url(../img/playbar.png);
+}
+.btns{
+    width:173px;height:42px;
+}
+.btns>a:first-child{
+    background-position: 0 -130px;
+    background-image: url(../img/playbar.png);
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    position:absolute;
+    top:13px;
+   left:102px;
+}
+.btns>a:nth-child(2){
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-top: 0;
+    background-position: 0 -205px;
+    background-image: url(../img/playbar.png);
+    position:absolute;
+    top:7px;
+    left:137px;
+
+}
+.btns>a:nth-child(3){
+    display: inline-block;
+    width: 30px;
+    height: 36px;
+    margin-top: 0;
+    background-position: -80px -130px;
+    background-image: url(../img/playbar.png);
+    position:absolute;
+    top:13px;
+    left:178px;
+
+}
+.tiao{
+    height: 9px;
+    background-position: 0px 0px;
+    width: 493px;
+    background-image: url(../img/statbar.png);
+    position:absolute;
+    top:13px;
+    left:178px;
+
+
+}
+.open>a:first-child{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 11px 2px 0 0;
+    position:absolute;
+    top:5px;left:865px;
+    background-position: -88px -163px;
+    background-image: url(../img/playbar.png);
+    display: inline-block;
+
+}
+.open>a:nth-child(2){
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 11px 2px 0 0;
+    position:absolute;
+    background-position: -114px -163px;
+    background-image: url(../img/playbar.png);
+    display: inline-block;
+    top:5px;
+    right:62px;
+}
+.ctrl>a:first-child{
+    background-position: -2px -248px;
+
+    top:5px;
+    right:11px;
+
+}
+
+.ctrl>a:nth-child(2),.ctrl>a:first-child,.ctrl>span>a{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 11px 2px 0 0;
+    position:absolute;    background-image: url(../img/playbar.png);
+}
+.ctrl>a:nth-child(2){
+    top:5px;
+    right:-16px;
+    background-position: -3px -344px;
+}
+.ctrl>span>a{
+    width: 38px;
+    padding-left: 21px;
+    background-position: -42px -68px;
+    top:5px;right:-56px;
+font-size:12px;
+    text-align: center;
+
+
+}
+.m-pbar{
+    width: 493px; position: relative;
+    height:9px;
+    top:0px;
+}
+
+
+
+.play{
+    width:608px;height:38px;
+    float:left;
+    position:absolute;
+    top:0px;left:269px;
+}
+.play>div>a{
+    font-size: 12px;
+}
+.play>div>span a{
+    font-size:12px;
+}
+.play>div:first-child{
+    width:608px;
+    height:28px;
+}
+.head2,.wrap  { position:absolute;
+}
+.wrap{
+    width:980px;height:47px;
+    top:3px;left:259px;
+}
+.head2{
+    top:6px;left:223px;
+}
+.tiao{
+    height: 9px;
+    background-position: right 0;
+    background-image:url(../img/statbar.png);
+    position:absolute;
+    top:0px;left:0px;
+}
+.bai{
+    width: 39.9713%;
+    background-position: right -30px;
+    height: 9px;
+    background-image:url(../img/statbar.png);
+}
+.redtiao{
+    background-image:url(../img/statbar.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: left -66px;
+    width: 2.78352%;
+    height: 9px;
+}
+.redtiao>span{
+    position: absolute;
+    top: -8px;
+    right: -13px;
+    width: 22px;
+    height: 24px;
+    margin-left: -11px;
+    background-position: 0 -250px;
+    background-image:url(../img/iconall.png);
+}
+.time22{
+    width:75px;height:16px;
+    top: -7px;
+    right: -84px;
+    color: #797979;
+    font-size: 12px;
+    float:left;
+    position:absolute;
+
+}
+.time22 .time23{width:60px;}
+.m-pbar span{
+    position: absolute;
+    top: -7px;
+    right: -84px;
+}
